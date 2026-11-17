@@ -1,0 +1,14 @@
+:root {
+    --azul: #1f3a4d;
+    --ambar: #e8890c;
+}
+body { background: #f3f5f7; }
+.barra { background: var(--azul); }
+.barra .nav-link.active { color: #fff; border-bottom: 2px solid var(--ambar); }
+.btn-primary { background: var(--azul); border-color: var(--azul); }
+.btn-primary:hover { background: #16293a; border-color: #16293a; }
+.btn-amber { background: var(--ambar); border-color: var(--ambar); color: #fff; }
+.btn-amber:hover { background: #c97506; border-color: #c97506; color: #fff; }
+.card { border: 0; box-shadow: 0 1px 3px rgba(0, 0, 0, .08); }
+.numero-grande { font-size: 2.2rem; font-weight: 700; color: var(--azul); line-height: 1; }
+.table thead th { background: #e9eef2; }
